@@ -1,0 +1,39 @@
+.iqtibos-section{
+    padding: 0 0 191px;
+}
+
+.iqtibos{
+    background-image: url("../../images/iqtibos-left.svg"), url("../../images/iqtibos-right.svg");
+    background-repeat: no-repeat;
+    background-position-y: 30px, 100px;
+    background-position-x: 225px, 1114px;
+    text-align: center;
+}
+
+.iqtibos span{
+    width: 140px;
+    height: 2px;
+    display: inline-block;
+    background-color:#DBDBDB;
+}
+
+.iqtibos__blockquote{
+    width: 753px;
+    margin-left: 320px;
+    margin-top: 43px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+}
+
+.iqtibos__title{
+    margin: 0 auto;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+}

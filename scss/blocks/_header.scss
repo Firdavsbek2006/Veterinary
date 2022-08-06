@@ -1,0 +1,158 @@
+.header-inner{
+    padding: 11px 0 9px;
+    background: #F9F8F8;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-self: right;
+}
+
+.header__address-div{
+    margin-right: 106px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.header__address{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.header__f-list{
+    margin-right: 98px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.header__f-item{
+    display: flex;
+    align-items: center; 
+    gap: 9px;
+}
+
+.header__f-item a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;    
+}
+
+.header__f-item a:hover{
+    color: #FFBD54;
+}
+
+.header__f-item a:active{
+    opacity: .6;
+}
+
+.header__s-list{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.header__s-item{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.header__s-item a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;    
+}
+
+.nav-bar{
+    padding: 15px 0 19.81px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+}
+
+.nav-bar__wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.nav-bar__img{
+    position: absolute;
+    left: 0;
+}
+
+.nav-bar__img:hover{
+    opacity: .8;
+}
+
+.nav-bar__img:active{
+    opacity: .6;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 163px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 55px;
+}
+
+.nav__item:first-child{
+    display: flex;
+    align-items: center;
+    gap: 12.14px;
+}
+
+.nav__item a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    border-bottom: 4px solid transparent;    
+}
+
+.nav__item a:hover{
+    border-bottom: 4px solid #F4FFAD;
+}
+
+.nav__item a:active{
+    border-bottom: 4px solid #F4FFAD;
+    opacity: .6;
+}
+
+.nav-bar__link{
+    display: flex;
+    align-items: center;
+    gap: 4.68px;
+}
+
+.nav-bar__link{
+    width: 124.68px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}

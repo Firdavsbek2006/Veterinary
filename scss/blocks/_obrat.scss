@@ -1,0 +1,134 @@
+.obrat-section{
+    padding-bottom: 247px;
+    display: flex;
+}
+
+.obrat-section iframe{
+    height: 100%;
+    border: none;
+}
+
+.obrat{
+    position: relative;
+    padding: 62px 372px 74px 140px;
+    background-color: #333333;
+}
+
+.obrat__img1{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.obrat__img2{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.obrat__img3{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.obrat__img4{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+.obrat__img5{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+.obrat__img6{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.obrat__img7{
+    position: absolute;
+    bottom: 190px;
+    right: 78px;
+}
+
+.feedback{
+    position: absolute;
+    bottom: 463px;
+    right: 193px;
+}
+
+.question{
+    position: absolute;
+    bottom: 545px;
+    right: 22px;
+}
+
+.obrat__fish{
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    z-index: 0;
+}
+
+.obrat__title{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.obrat__text-div{
+    width: 334px;
+    margin-bottom: 29px;
+}
+
+.obrat__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.obrat form{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.obrat form input{
+    width: 100%;
+    height: 50px;
+    padding: 16px 0 13px 22px;
+}
+
+.obrat form input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;    
+}
+
+.obrat textarea{
+    height: 165px;
+    margin-bottom: 16px;
+    padding: 17px 103px 86px 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+    z-index: 1;
+}
+
+.obrat button{
+    padding: 15px 49px 14px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;    
+    background: #FFBD54;
+    border: none;
+}

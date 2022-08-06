@@ -1,0 +1,66 @@
+.bud-section{
+    padding: 235px 0 216px;
+    background-image: url("../images/bud-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bud{
+    display: flex;
+    position: relative;
+}
+
+.bud img{
+    position: absolute;
+    right: 30px;
+    bottom: -69px;
+}
+
+.bud__wrapper{
+    padding: 90px 0 88px 227px;
+}
+
+.bud__title{
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.bud__form input{
+    width: 335px;
+    padding: 18px 0 12px 22px;
+    margin-right: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+
+    &:focus{
+        outline-color: #FFBD54;
+    }
+
+    &::placeholder{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+}
+
+.bud__form button{
+    padding: 15px 53px 14px 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;    
+    background: #333333;
+    border-radius: 3px;
+    border: none;
+}

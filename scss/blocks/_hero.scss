@@ -1,0 +1,101 @@
+.hero-section{
+    padding: 153px 0 320px;
+    background-image: url("../images/hero-kichik-bg.svg"), url("../images/hero-totiqush.svg"), url("../images/hero-katta-bg.svg");
+    background-repeat: no-repeat;
+    background-position-y: -80px, 460px, 590px;
+    background-position-x: 0, right, right;
+}
+
+.hero{
+    padding: 0 32px 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.hero__img-wrapper{
+    position: absolute;
+    position: relative;
+    bottom: -150px;
+    left: -1200px;
+}
+
+.hero__img:nth-child(1){
+    position: absolute;
+    z-index: 1;
+    bottom: -20px;
+    left: 20px;
+}
+.hero__img:nth-child(2){
+    position: absolute;
+    z-index: 2;
+    bottom: -40px;
+    left: -50px;
+}
+.hero__img:nth-child(3){
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    left: 250px;
+}
+.hero__img:nth-child(4){
+    position: absolute;
+    z-index: 4;
+    bottom: -10px;
+    left: 160px;
+}
+.hero__img:nth-child(5){
+    position: absolute;
+    z-index: 5;
+    bottom: -18px;
+    left: 46px;
+}
+
+.hero__title-div{
+    width: 608px;
+    margin-bottom: 29px;
+}
+
+.hero__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+
+    span{
+        color: #78C0DE;
+    }
+}
+
+.hero__text-div{
+    width: 495px;
+    margin-bottom: 38px;
+}
+
+.hero__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;    
+}
+
+.hero__link{
+    padding: 15px 48px 16px 47px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+}
+
+.hero__link:hover{
+    color: #333333;
+    background: #FFBD54;
+}
+
+.hero__link:active{
+    color: #333333;
+    background: #FFBD54;
+    opacity: .6;
+}

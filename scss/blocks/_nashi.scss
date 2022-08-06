@@ -1,0 +1,214 @@
+.nashi__title{
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #333333;
+}
+
+.nashi__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nashi__img-div{
+    padding: 12px 18px;
+    background-color: transparent;
+}
+
+.nashi__img-div:hover{
+    background-color: #FFFFFF;
+}
+
+.nashi__img-div:active{
+    background-color: #FFFFFF;
+    opacity: .6;
+}
+
+.nashi__list{
+    display: flex;
+    gap: 13px;
+}
+
+.nashi__item{
+    width: 193px;
+    height: 201px;
+    padding: 30px 0 42px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+}
+
+.nashi__item:hover{
+    opacity: .8;
+}
+
+.nashi__item:active{
+    opacity: .6;
+}
+
+.nashi__item:first-child{
+    height: 215px;
+    border: none;
+}
+
+.nashi__item:nth-child(2){
+    padding: 30px 0 28px;
+}
+
+.nashi__item:nth-child(3){
+    padding: 30px 0 28px;
+}
+
+.nashi__item:nth-child(4){
+    padding: 30px 0 39px;
+}
+
+.nashi__item:nth-child(5){
+    padding: 30px 0 28px;
+}
+.nashi__item:nth-child(6){
+    padding: 31px 0 39px;
+}
+
+.nashi__item-title-div{
+    margin: 0 auto;
+}
+
+.nashi__item-title-div:nth-child(1){
+    width: 126px;
+    margin-top: 21.55px;
+}
+
+.nashi__item-title-div:nth-child(2){
+    width: 126px;
+    margin-top: 22.55px;
+}
+
+.nashi__item-title-div:nth-child(3){
+    width: 126px;
+    margin-top: 21.86px;
+}
+
+.nashi__item-title-div:nth-child(4){
+    width: 126px;
+    margin-top: 34.06px;
+}
+
+.nashi__item-title-div:nth-child(5){
+    width: 126px;
+    margin-top: 21px;
+}
+
+.nashi__item-title-div:nth-child(6){
+    width: 126px;
+    margin-top: 33.06px;
+}
+
+.nashi__item-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+.nashi{
+    width: 1223px;
+    margin: 0 0 0 51px;
+    padding: 42px 105px 43px 35px;
+    display: flex;
+    align-items: center;
+    gap: 67px;
+    background-color: #FFFFFF;
+}
+
+.nashi__card-title{
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.nashi__card-text-div{
+    width: 492px;
+    margin-bottom: 9px;
+}
+
+.nashi__card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.nashi__link1{
+    margin-top: 25px;
+    margin-right: 20px;
+    padding: 14px 36px 15px 63px;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FFBD54;
+    border-radius: 3px;
+}
+
+.nashi__link1:hover{
+    color: #FFBD54;
+    background-color: #333333;
+}
+
+.nashi__link1:active{
+    color: #FFBD54;
+    background-color: #333333;
+    opacity: .6;
+}
+
+.nashi__link1::before{
+    content: url("../images/nashi-btn1.svg");
+    background-repeat: no-repeat;
+    background-size: 21.25px 21px;
+    position: absolute;
+    top: 14px;
+    left: 35px;
+}
+
+.nashi__link2{
+    padding: 14px 37px 15px 64px;
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+}
+
+.nashi__link2:hover{
+    color: #333333;
+    background-color: #FFBD54;
+}
+
+.nashi__link2:active{
+    color: #333333;
+    background-color: #FFBD54;
+    opacity: .6;
+}
+
+.nashi__link2::before{
+    content: url("../images/nashi-btn2.svg");
+    background-repeat: no-repeat;
+    background-size: 21px;
+    position: absolute;
+    top: 14px;
+    left: 37px;
+}
